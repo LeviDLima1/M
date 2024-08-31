@@ -1,15 +1,14 @@
 body{
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: sans-serif;
     background-color: #191919;
 }
 
 .conteiner {
-    width: 500px;
-    height: 500px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
     display: grid;
     border-radius: 10px;
     align-items: center;
@@ -24,4 +23,32 @@ h1 {
 img {
     border: 2 px solid white;
     margin: auto;
+}
+
+nav{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        width: 20%;
+        height: 50px;
+        border: none;
+        border-radius: 10px;
+         h2{
+            margin: auto;
+            width: auto;
+            height: auto;
+            a{
+                color: black;
+                text-transform: uppercase;
+                margin: auto;
+                width: auto;
+                height: auto;
+            }
+         }
+    }
 }
